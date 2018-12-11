@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import App from "./app/app";
 import { AppRegistry } from "react-native";
 
@@ -17,4 +17,4 @@ export default class ALaUne extends Component {
 }
 
 
-AppRegistry.registerComponent('ALaUne', () => ALaUne);
+AppRegistry.registerComponent("ALaUne", () => ALaUne);
