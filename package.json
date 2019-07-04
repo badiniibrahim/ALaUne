@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-preset-react-native": "^4.0.1",
     "husky": "^1.2.0",
     "react": "16.6.1",
-    "react-native": "0.57.7"
+    "react-native": "0.60.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
@@ -26,5 +29,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
