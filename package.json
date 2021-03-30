@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "babel-preset-react-native": "^4.0.1",
-    "husky": "^1.2.0",
+    "husky": "^4.0.0",
     "react": "16.6.1",
-    "react-native": "0.57.7"
+    "react-native": "0.60.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
